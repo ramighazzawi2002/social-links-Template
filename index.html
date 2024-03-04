@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+  
+  <style>
+    @font-face {
+      font-family: "Inter";
+      src: url('assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+    }
+    .attribution { font-size: 14px; text-align: center; color: #fff; margin-top: 10px; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      font-family: "Inter";
+      font-size: 14px;
+      background-color: hsl(0, 0%, 8%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      min-height: 100vh;
+      overflow: hidden;
+    }
+    section{
+      background-color: hsl(0, 0%, 12%);
+      width: 300px;
+      padding: 40px;
+      border-radius: 7px;
+    }
+    img{
+      display: block;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      margin: auto;
+    }
+    section p.name{
+      color: hsl(0, 0%, 100%);
+      font-size: 22px;
+      font-weight: 700;
+      text-align: center;
+      line-height: 5px;
+    }
+    section p.location{
+      text-align: center;
+      color: hsl(75, 94%, 57%);
+      font-weight: 700;
+    }
+    section p.front-end{
+      color: hsl(0, 0%, 100%);
+      text-align: center;
+      font-weight: 200;
+      font-size: 15px;
+    }
+    section div div{
+      background-color :hsl(0, 0%, 20%);
+      margin-top: 15px;
+      padding: 15px;
+      text-align: center;
+      color: hsl(0, 0%, 100%);
+      font-weight: 600;
+      cursor:pointer;
+      border-radius: 7px;
+      transition: 0.3s;
+    }
+    section div div:hover{
+      background-color: hsl(75, 94%, 57%);
+      color: hsl(0, 0%, 8%);
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <img src="assets/images/avatar-jessica.jpeg" alt="Jessica Avatar">
+    <p class="name">Jessica Randall</p>
+    <p class="location">London, United Kingdom</p>
+    <p class="front-end">"Front-end developer and avid reader."</p>
+    <div>
+      <div>GitHub</div>
+      <div>Frontend Mentor</div>
+      <div>LinkedIn</div>
+      <div>Twitter</div>
+      <div>Instagram</div>
+    </div>
+  </section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/ramighazzawi2002" target="_blank">Rami Ghazzawi</a>.
+  </div>
+</body>
+</html>
